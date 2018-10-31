@@ -186,14 +186,7 @@
       <div class="gap"></div>
       <div ref="image-text" class="section image-text">
         <div class="title flex"><span>图文详情</span></div>
-        <div class="image-text-content" v-html="res.detail">
-          <!-- <div class="image-text-content"> -->
-          <!-- <img src="~assets/goods/pic_dring.png" alt="">
-          <p>CC卡美婚嫁钻饰系列经悉心设计，力求象征中国从未消失一直存在的隽永感情。</p>
-          <p>灵感取材于美对爱侣分享的幸福时刻。CC卡美创作的婚戒系列钻饰，每款设计都尽显美钻的锋芒火彩，将你的爱意表露无遗。
-          </p> -->
-          <!-- <img src="~assets/goods/goods_detail.jpg" alt=""> -->
-        </div>
+        <div class="image-text-content" v-html="res.detail"></div>
       </div>
       <div class="gap"></div>
       <v-recommend class="section" ref="recommend" title="为你推荐" :list="recommend"></v-recommend>

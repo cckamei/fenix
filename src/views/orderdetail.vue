@@ -38,7 +38,7 @@
         <div class="itemtitle">
           <div class="titleleft">
             <img src="~assets/mypage/icon_shop.png" alt="">
-            <span>CC卡美珠宝</span>
+            <span>FENIX</span>
           </div>
           <div class="listright">{{typename(order.status)}}</div>
         </div>

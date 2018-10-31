@@ -6,7 +6,7 @@
         <div class="itemtitle" @click="goDetail()">
           <div class="titleleft">
             <img src="~assets/mypage/icon_shop.png" alt="">
-            <span>CC卡美珠宝</span>
+            <span>FENIX</span>
           </div>
           <div class="listright">{{order.status===4?'退款中':(order.status === 8?'已取消':'已退款')}}</div>
         </div>
