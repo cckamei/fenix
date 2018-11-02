@@ -197,7 +197,7 @@
     height: 60px;
     line-height: 60px;
     font-size: 24px;
-    color: #cdb498;
+    color: #9dc8be;
     text-align: center;
   }
 </style>

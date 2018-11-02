@@ -398,7 +398,7 @@
         }
         .listright {
           font-size: 24px;
-          color: #cdb498;
+          color: #9dc8be;
         }
       }
       .itemcontent {

@@ -686,7 +686,7 @@
       li {
         padding-right: 40px;
         font-size: 24px;
-        color: #cdb498;
+        color: #9dc8be;
         img {
           width: 24px;
           height: 24px;
