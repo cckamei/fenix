@@ -227,6 +227,11 @@
           return false;
         }
 
+        if(!this.reqData.logitics_id) {
+          this.toast('没有设置收货地址');
+          return false;
+        }
+
         //修改
         if(this.getPayOrder.order_id) {
           this.ajax({
