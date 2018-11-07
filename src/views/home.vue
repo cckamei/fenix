@@ -3,15 +3,17 @@
     <div class="content">
       <mt-swipe :auto="4000" class="banner">
         <mt-swipe-item v-for="(item, index) in bannerList" :key="index">
-          <a :href="item.url">
+          <a :href="item.url" v-if="item.type == 1">
             <img :src="item.img" />
           </a>
+          <img v-else :src="item.img" alt="" @click="goGoodsDetail(item.id)">
         </mt-swipe-item>
       </mt-swipe>
       <div class="activity" v-for="(item,index) in activity" :key="index">
-        <a :href="item.url">
+        <a :href="item.url" v-if="item.type == 1">
           <img :src="item.img" alt="">
         </a>
+        <img v-else :src="item.img" alt="" @click="goGoodsDetail(item.id)">
       </div>
       <ul>
         <li class="row1" v-for="(item, index) in imgList" :key="index">
