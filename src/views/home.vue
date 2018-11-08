@@ -90,6 +90,10 @@
           return false;
         }
         this.$router.push({ name: 'mypage' });
+      },
+      goGoodsDetail(goodsId) {
+        this.setCommon({ goodsId });
+        this.$router.push({ name: 'goodsdetail' });
       }
     }
   };
