@@ -68,6 +68,7 @@
 </script>
 
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .popup-confirm {
     border-radius: 20px;
     overflow: hidden;
@@ -102,7 +103,7 @@
       &.confirm {
         color: #666;
         &.active {
-          background-color: #64cbea;
+          background-color: @color2;
           color: #fff;
         }
       }

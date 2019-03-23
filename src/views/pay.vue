@@ -79,6 +79,7 @@
 </script>
 
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .pb {
     padding-bottom: 150px;
   }
@@ -104,7 +105,7 @@
         font-size: 30px;
         font-weight: bold;
         span {
-          color: #9dc8be;
+          color: @color4;
         }
       }
     }
@@ -122,12 +123,12 @@
           margin-right: 40px;
         }
         .select {
-          background: url('~assets/payment/button_select_off.png') no-repeat;
+          background: url("~assets/payment/button_select_off.png") no-repeat;
           background-size: 100% 100%;
           width: 36px;
           height: 36px;
           &.active {
-            background: url('~assets/payment/button_select_on.png') no-repeat;
+            background: url("~assets/payment/button_select_on.png") no-repeat;
             background-size: 100% 100%;
           }
         }

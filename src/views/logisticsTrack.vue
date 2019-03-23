@@ -70,6 +70,7 @@
 
 
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .logisticsTrack {
     background: #ffffff;
     .logisticsTrackTop {
@@ -112,7 +113,7 @@
           z-index: 1;
         }
         i.colorpoint {
-          background: #89def8;
+          background: @color5;
         }
         s {
           position: absolute;

@@ -19,6 +19,7 @@
 </script>
 
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .tabs-warp {
     position: absolute;
     height: 96px;
@@ -51,7 +52,7 @@
         width: 150px;
         text-align: center;
         &.active {
-          border-bottom: 3px solid #64cbea; /*no*/
+          border-bottom: 3px solid @color2; /*no*/
         }
       }
     }

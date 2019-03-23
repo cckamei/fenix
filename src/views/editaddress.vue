@@ -185,6 +185,7 @@
   };
 </script>
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .deleteAddresss {
     float: right;
     font-size: 28px;
@@ -249,7 +250,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: #64cbea;
+        background: @color2;
         min-width: 92px;
         width: 100%;
       }
@@ -266,7 +267,7 @@
       color: #666;
     }
     .actived {
-      color: #64cbea;
+      color: @color2;
     }
   }
   .fix {

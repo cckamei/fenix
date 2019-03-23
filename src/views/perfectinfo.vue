@@ -147,6 +147,7 @@
 </script>
 
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .section {
     margin-top: 16px;
     padding: 0 20px;
@@ -173,7 +174,7 @@
     height: 60px;
     line-height: 60px;
     font-size: 24px;
-    color: #9dc8be;
+    color: @color4;
     text-align: center;
   }
 </style>

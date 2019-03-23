@@ -157,6 +157,7 @@
 </script>
 
 <style lang="less" scoped>
+  @import "~@/style/vars.less";
   .content {
     background-color: #fff;
   }
@@ -198,7 +199,7 @@
   }
 
   .links {
-    color: #9dc8be;
+    color: @color4;
     font-size: 28px;
     padding: 0 40px;
   }
